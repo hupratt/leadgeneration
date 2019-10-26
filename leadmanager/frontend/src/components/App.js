@@ -4,7 +4,7 @@ import Dashboard from "./leads/Dashboard";
 import { Provider } from "react-redux";
 import store from "../store";
 import ReactDOM from "react-dom";
-// import * as serviceWorker from "./serviceWorker";
+import * as serviceWorker from "../serviceWorker";
 
 export default class App extends Component {
   render() {
