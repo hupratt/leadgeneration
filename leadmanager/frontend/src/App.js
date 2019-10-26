@@ -1,7 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Header from "./components/display/Header";
+import Dashboard from "./components/leads/Dashboard";
 
 function App() {
-  return <h1>Home</h1>;
+  return (
+    <Fragment>
+      <Header />
+      <Dashboard />
+    </Fragment>
+  );
 }
 
 export default App;

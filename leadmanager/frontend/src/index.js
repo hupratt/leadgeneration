@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import * as serviceWorker from "./serviceWorker";
+import App from "./App";
 
 ReactDOM.render(
-  <div>
-    <h1>Hello</h1>
-  </div>,
+  <Fragment>
+    <App />
+  </Fragment>,
   document.getElementById("root")
 );
 
